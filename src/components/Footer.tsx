@@ -8,11 +8,14 @@ export default function Footer() {
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-16">
           {/* Badge */}
           <div className="flex-shrink-0">
-            <img
-              src="https://ext.same-assets.com/482647744/1286474041.png"
-              alt="LSSD Badge"
-              className="w-32 md:w-40 object-contain"
-            />
+            <div className="w-32 md:w-40 h-32 md:h-40 bg-[#c9a227] rounded-full flex items-center justify-center shadow-lg">
+              <div className="text-center">
+                <svg className="w-12 h-12 mx-auto text-[#374127] mb-1" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                </svg>
+                <div className="text-[#374127] font-bold text-xs">LSSD</div>
+              </div>
+            </div>
           </div>
 
           {/* Contact Info */}
@@ -68,7 +71,7 @@ export default function Footer() {
       {/* Copyright */}
       <div className="bg-[#374127] py-4 px-4">
         <p className="text-center text-white text-sm">
-          &copy; 2025 - LOS SANTOS COUNTY SHERIFF'S DEPARTMENT - BY SALVOTORE
+          &copy; 2026 - LOS SANTOS COUNTY SHERIFF'S DEPARTMENT - BY YODELKIID
         </p>
       </div>
     </footer>

@@ -47,7 +47,7 @@ export default function VotreLssdPage() {
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-8">
           <div className="flex-shrink-0">
             <img
-              src="https://ext.same-assets.com/482647744/4024856269.png"
+              src="https://ext.same-assets.com/482647744/2913120523.png"
               alt="Sheriff William A. Garland"
               className="w-48 h-auto rounded-lg shadow-lg"
             />

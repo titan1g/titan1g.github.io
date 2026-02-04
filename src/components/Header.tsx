@@ -38,7 +38,10 @@ const navItems = [
     href: "#",
     hasDropdown: true,
     dropdownItems: [
-      { label: "RECRUTEMENTS", href: "/carrieres" },
+      { label: "POINTEUSE", href: "/pointeuse" },
+      { label: "CARRIÈRES", href: "/carrieres" },
+      { label: "OPPORTUNITÉS DE CARRIÈRES", href: "/recrutements/opportunites" },
+      { label: "RÉSERVE", href: "/recrutements/reserve" },
       { label: "NOUS CONTACTER", href: "/contact" },
     ],
   },

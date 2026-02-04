@@ -21,7 +21,7 @@ export default function Hero() {
         transition={{ duration: 1.5, ease: "easeOut" }}
       >
         <img
-          src="https://ext.same-assets.com/482647744/2194947571.png"
+          src="https://i.imgur.com/Rrxo6Fk.jpg"
           alt="LSSD Sheriff Vehicles"
           className="w-full h-full object-cover"
         />

@@ -9,12 +9,8 @@ export default function SocialSection() {
           <h3 className="text-2xl font-bold text-center mb-6">INSTAGRAM</h3>
           <div className="flex items-center gap-3 mb-4">
             <div className="w-12 h-12 rounded-full overflow-hidden bg-gradient-to-tr from-yellow-400 via-red-500 to-purple-500 p-0.5">
-              <div className="w-full h-full bg-white rounded-full flex items-center justify-center">
-                <img
-                  src="https://ext.same-assets.com/482647744/2345721791.png"
-                  alt="LSSDHQ"
-                  className="w-10 h-10 rounded-full object-cover"
-                />
+              <div className="w-full h-full bg-[#374127] rounded-full flex items-center justify-center">
+                <span className="text-white font-bold text-xs">LSSD</span>
               </div>
             </div>
             <div>
@@ -24,12 +20,13 @@ export default function SocialSection() {
           </div>
 
           {/* Instagram Post */}
-          <div className="rounded-lg overflow-hidden">
-            <img
-              src="https://ext.same-assets.com/482647744/2513686914.png"
-              alt="LSSD Instagram Post"
-              className="w-full h-auto"
-            />
+          <div className="rounded-lg overflow-hidden bg-[#374127] h-64 flex items-center justify-center">
+            <div className="text-center p-4">
+              <div className="text-[#c9a227] font-bold text-lg mb-2">LOS SANTOS COUNTY SHERIFF'S DEPARTMENT</div>
+              <div className="text-[#c9a227] text-2xl font-bold mb-2">SPECIAL BULLETIN</div>
+              <div className="text-white font-bold">RECHERCHÉ</div>
+              <div className="text-red-500 font-bold">TENTATIVE DE MEURTRE</div>
+            </div>
           </div>
 
           <Link
@@ -47,11 +44,9 @@ export default function SocialSection() {
         <div className="bg-[#f5f3ed] rounded-lg p-6">
           <h3 className="text-2xl font-bold text-center mb-6">X.COM</h3>
           <div className="flex items-center gap-3 mb-4">
-            <img
-              src="https://ext.same-assets.com/482647744/2345721791.png"
-              alt="LS County Sheriffs"
-              className="w-12 h-12 rounded-full object-cover"
-            />
+            <div className="w-12 h-12 rounded-full bg-[#374127] flex items-center justify-center">
+              <span className="text-white font-bold text-xs">LS</span>
+            </div>
             <div className="flex-1">
               <div className="flex items-center gap-2">
                 <span className="font-semibold">LS County Sheriffs</span>
